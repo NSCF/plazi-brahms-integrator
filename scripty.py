@@ -18,7 +18,7 @@ article_response = requests.get(article_endpoint)
 if article_response.ok:
   results = article_response.json()
   articles = results['data']
-  if articles and len(articles):
+  if articles:
     article_uuid = articles[0]['DocArticleUuid'] # there should only be one...
   else:
     print('article not found...')
