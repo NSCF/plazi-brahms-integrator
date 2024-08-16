@@ -8,11 +8,11 @@ You will need [`git`](https://git-scm.com/downloads) and [`Python`](https://www.
 
 Clone this repo to your local machine, open the folder, click in the address bar of the folder, type cmd and enter to open a command window. 
 
-Run `pip install -r requirements.txt` to install requirements.
+Run `pip install -r requirements.txt` to install requirements. If you're working with other Python projects and you know about virtual environments, create a virual environment first. 
 
 Back in the folder, you can open script.py in a text editor like Notepad (not MS Word!) and edit the article_doi variable for the article you want (add just the DOI, not the whole DOI URL). Save your changes.
 
-In the command line run `python script.py`. It will give some output, and that's as far as we are thus far. 
+In the command line run `python script.py`. It will give some output, and that's as far as we've got. 
 
 Check back here to see if there are updates (you'll see dates next to the file names), and/or run `git pull` on the command line to get the latest updates, and then `python script.py` again to see what the code is doing. 
 
